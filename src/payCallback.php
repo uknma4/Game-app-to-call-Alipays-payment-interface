@@ -1,6 +1,6 @@
 <?php
 //这是签名验证串，在 App配置 查询或重置
-$secretKey = "iXKAyq1gG8TQfRYNDQjdfcIMSb9npTHH";
+$secretKey = "XXXXXXXXXXXXXXXXXXXXXXXXXX";
 //发送通知时的 Unix 时间戳，可用于处理通知过期策略
 $timestamp = intval($_POST["timestamp"]);
 //假定15分钟内有效
